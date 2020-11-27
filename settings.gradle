@@ -1,3 +1,5 @@
 include ':app'
+include ':mlogger_annotation'
 include ':ac_logger'
+include ':mlogger_plugin'
 rootProject.name = "AndroidAOPTutorial"
