@@ -42,6 +42,10 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
     implementation project(path: ':mlogger_annotation')
+    implementation project(path: ':buildtime_annotation')
+    implementation project(path: ':buildtime')
+    // 注解处理器的以来引入方法不同
+    annotationProcessor project(path: ':buildtime_processor')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'

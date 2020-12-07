@@ -1,3 +1,6 @@
+include ':buildtime'
+include ':buildtime_annotation'
+include ':buildtime_processor'
 include ':app'
 include ':mlogger_annotation'
 include ':ac_logger'
